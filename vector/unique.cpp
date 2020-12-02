@@ -1,5 +1,6 @@
 //to remove adjacent elements in vector
 //efficient way 
+//problem :: https://codeforces.com/contest/1454/problem/C
 #include <bits/stdc++.h>
 
 using namespace std;
