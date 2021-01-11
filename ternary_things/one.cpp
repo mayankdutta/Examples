@@ -1,3 +1,5 @@
+//https://codeforces.com/contest/755/problem/B
+//can also be used in set 
 #include <iostream>
 #include <vector>
 #include <cmath>

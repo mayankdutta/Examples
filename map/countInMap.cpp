@@ -1,3 +1,4 @@
+//can also be used in set
 //done by using count in map !! 
 //unwanted conditions avoided
 //https://codeforces.com/contest/1454/problem/B
