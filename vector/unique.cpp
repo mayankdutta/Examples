@@ -22,8 +22,14 @@ int main() {
         
         vector<int> res(n + 1, 1);
 
+        //method-1
         n = unique(a.begin(), a.end()) - a.begin();
         a.resize(n);
+
+        //method-2
+        /*
+         * a.erase(unique(a.begin(), a.end()), a.end());
+         */
 
         for (int i = 0; i < n; ++i) {
             res[a[i]] += 1;
