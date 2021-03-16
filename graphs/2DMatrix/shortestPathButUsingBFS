@@ -91,5 +91,6 @@ int main() {
 
 /* Pay extra attention to dx, dy and stepDir
  * Pay extra attention to how they store paths
+ * Try not to get confuse in dr, and dc make them on paper, They mean exact opposite .... yes try to visualize them. 
  * Solution link: https://usaco.guide/solutions/cses-1193?lang=cpp
  */
