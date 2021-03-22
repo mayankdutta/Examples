@@ -1,6 +1,15 @@
 /*
  * Shortest path but using BFS
  * Motivating problem: https://cses.fi/problemset/task/1193/
+ *
+ *
+ * Better to use this, you never know when to use what
+ * int Dr[] = {1, -1, 0, 0, 1, 1, -1, -1};
+ * int Dc[] = {0, 0, 1, -1, -1, 1, 1, -1};
+ * 
+ * int dr[] = {1, -1, 0, 0}; 
+ * int dc[] = {0, 0, 1, -1};
+ * 
  */
 
 #include <bits/stdc++.h>
