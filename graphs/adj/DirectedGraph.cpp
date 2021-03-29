@@ -23,7 +23,7 @@ int main() {
 
     adj.resize(n + 1);
     for (auto& i: adj) i.resize(2);
-    used.resize(n + 1, false);
+    used.resize(n + 1, false); /* mistake was made here, tried to declare size m + 1, in adjacent too, hence got RTE */
     int start = INT_MAX;
 
 
