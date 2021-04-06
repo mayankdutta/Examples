@@ -37,3 +37,7 @@ int main() {
         solve(); 
 }
 
+/*
+ * Similar que: https://cses.fi/problemset/task/1662/
+ * You will be hitting a wall, if negative remainders will not be taken care of.
+ /
