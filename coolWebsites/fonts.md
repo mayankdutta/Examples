@@ -1,19 +1,19 @@
 ## Normal(bold/regular type) Heading
 
-Helvetica Nue
-Proxima Nova
-Verdana
-Nirmala UI
-Century gothic
-Copper plate
+- Helvetica Nue 
+- Proxima Nova 
+- Verdana
+- Nirmala UI
+- Century gothic
+- Copper plate
 
 ## Context
 
-Garamond
-Calibiri
+- Garamond
+- Calibiri
 
 ## Unique heading
 
-Zapfino
-Futura
-Bodoni
+- Zapfino
+- Futura
+- Bodoni
