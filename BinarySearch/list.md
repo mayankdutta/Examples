@@ -1,0 +1,1 @@
+- [Number of pairs](https://codeforces.com/contest/1538/problem/C) just have to calculate, L - 1 and R then minus.
