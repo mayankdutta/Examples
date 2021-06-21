@@ -27,3 +27,27 @@
       }
 
       ```
+2. Encountered a leetcode question did with some another approach. 
+      ```
+           int firstMissingPositive(vector<int>& nums) {
+
+            vector<int> arr;
+
+            for (int i = 0; i< nums.size(); i++) if (nums[i] > 0) arr.push_back(nums[i]);
+
+            if (arr.empty()) return 1; 
+
+            sort(arr.begin(), arr.end());
+
+            int n = arr.size();
+            if ( arr.front() > 1) return 1;
+
+            /* could have done without using this */ 
+            n = unique(arr.begin(), arr.end()) - arr.begin(); 
+            arr.resize(n);
+
+            for (int i = 1; i< n; i++) if (arr[i] - arr[i - 1] > 1) return arr[i - 1] + 1; 
+                
+            return arr.back() + 1;
+        }
+      ```
