@@ -31,3 +31,24 @@
 
     ```
 
+2. [B. Arpa’s obvious problem and Mehrdad’s terrible solution
+](https://codeforces.com/contest/742/problem/B) Basic problem but innvovles online query handling with bitwise XOR concept. 
+    ```
+    a xor b == X
+    then
+    X xor a == b
+    ```
+    
+    `Online queries`
+    
+    ```
+    for(int i=0;i<n;i++)
+	{
+		store = v[i]^x;
+		if(mp.find(store) != mp.end())
+			res+= mp[store];
+		mp[v[i]]++;
+	}
+	cout<<res;
+    ```
+    Not working with offline queries, don't know why !?
