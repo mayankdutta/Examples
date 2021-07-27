@@ -5,3 +5,4 @@
 5. [cf predictor](https://cf-predictor-frontend.herokuapp.com)
 6. [A2Oj ladders](https://earthshakira.github.io/a2oj-clientside/server/Ladders.html)
 7. [upsolver](http://codeforced.github.io/handle/)
+8. [upsolve me](https://upsolve.netlify.app/), [repo](https://github.com/zenolus/upsolve)
