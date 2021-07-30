@@ -1,8 +1,8 @@
 # Prefix sums 
 
-- Prefix sums GCD except one digit, [Blackboard GCD](https://atcoder.jp/contests/abc125/tasks/abc125_c)
-- Prefix sums + NT just like blackboard GCD, [Orac and LCM](https://codeforces.com/contest/1349/problem/A)
-- given an array requirement is to find the prefix of every index. [Task](https://codeforces.com/contest/1539/problem/B)
+1. Prefix sums GCD except one digit, [Blackboard GCD](https://atcoder.jp/contests/abc125/tasks/abc125_c)
+2. Prefix sums + NT just like blackboard GCD, [Orac and LCM](https://codeforces.com/contest/1349/problem/A)
+3. given an array requirement is to find the prefix of every index. [Task](https://codeforces.com/contest/1539/problem/B)
 
     ```
       int n; cin >> n;
@@ -34,4 +34,4 @@
             cout << ans << '\n';
         }
     ```
-  
+4. [Yet another problem](https://codeforces.com/contest/1555/problem/C) unsolved though.
