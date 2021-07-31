@@ -34,4 +34,32 @@
             cout << ans << '\n';
         }
     ```
-4. [Yet another problem](https://codeforces.com/contest/1555/problem/C) unsolved though.
+4. [Yet another problem](https://codeforces.com/contest/1555/problem/C). 
+   ```
+      int n;
+      cin >> n;
+
+      vi arr(n), brr(n);
+      for (auto &i : arr)
+        cin >> i;
+      for (auto &i : brr)
+        cin >> i;
+
+      vi prefix(n + 1), suffix(n + 1);
+      for (int i = 1; i <= n; i++)
+        prefix[i] = prefix[i - 1] + brr[i - 1];
+
+      for (int i = 1; i <= n; i++)
+        suffix[i] = suffix[i - 1] + arr[i - 1];
+
+      prefix.pb(0);
+      suffix.pb(0);
+
+      int ans = INF;
+      for (int i = 1; i <= n; i++) {
+        ans = min(ans, max(suffix[n] - suffix[i], prefix[i - 1]));
+      }
+      cout << ans << '\n';
+
+   
+   ```
