@@ -6,3 +6,7 @@
 6. [A2Oj ladders](https://earthshakira.github.io/a2oj-clientside/server/Ladders.html)
 7. [upsolver](http://codeforced.github.io/handle/)
 8. [upsolve me](https://upsolve.netlify.app/), [repo](https://github.com/zenolus/upsolve)
+9. [codeforces-contest](https://surya1231.github.io/Codeforces-contest/)
+10. [tony montaro](https://tonymontaro.github.io/codeforce/)
+11. [contest Mania](https://contestmania.web.app/codeforces?category=All)
+12. 
