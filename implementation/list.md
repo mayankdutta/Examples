@@ -112,3 +112,34 @@
       }
    ```
 5. [C - Reorder Cards](https://atcoder.jp/contests/abc213/tasks/abc213_c)
+   Problem required the concept of **Coordinate Compression** hence new approach to me. 
+   
+   ```   
+     ll h, w, n;
+     cin >> h >> w >> n;
+
+     vector<int> arr, brr;
+     for (int i = 0; i < n; i++) {
+       int a, b;
+       cin >> a >> b;
+
+       arr.pb(a);
+       brr.pb(b);
+     }
+
+     auto row = arr;
+     auto col = brr;
+
+     sort(all(row));
+     sort(all(col));
+
+     row.resize(unique(all(row)) - row.begin());
+     col.resize(unique(all(col)) - col.begin());
+
+     for (int i = 0; i < n; i++) {
+       int a = lower_bound(all(row), arr[i]) - row.begin() + 1;
+       int b = lower_bound(all(col), brr[i]) - col.begin() + 1;
+
+       cout << a << ' ' << b << '\n';
+     }
+   ```
