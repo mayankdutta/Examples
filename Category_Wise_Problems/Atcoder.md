@@ -25,3 +25,6 @@
 ## bipariteness
 1. [D - Collisions](https://atcoder.jp/contests/abc209/tasks/abc209_d)
 2. [D - Even relation](https://atcoder.jp/contests/abc126/tasks/abc126_d)
+
+## MST
+1. [E - Destruction](https://atcoder.jp/contests/abc218/tasks/abc218_e)
