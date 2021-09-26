@@ -21,6 +21,7 @@
 16. [C - Range Set](https://atcoder.jp/contests/agc045/tasks/agc045_c)
 17. [C - shift](https://atcoder.jp/contests/agc046/tasks/agc046_c)
 18. [A - XOR Battle](https://atcoder.jp/contests/agc045/tasks/agc045_a)
+19. [FG Operation](https://atcoder.jp/contests/abc220/tasks/abc220_d)
 
 ## bipariteness
 1. [D - Collisions](https://atcoder.jp/contests/abc209/tasks/abc209_d)
