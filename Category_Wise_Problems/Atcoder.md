@@ -23,7 +23,7 @@
 18. [A - XOR Battle](https://atcoder.jp/contests/agc045/tasks/agc045_a)
 19. [FG Operation](https://atcoder.jp/contests/abc220/tasks/abc220_d)
 
-## bipariteness
+## bipariteness / coloring
 1. [D - Collisions](https://atcoder.jp/contests/abc209/tasks/abc209_d)
 2. [D - Even relation](https://atcoder.jp/contests/abc126/tasks/abc126_d)
 
