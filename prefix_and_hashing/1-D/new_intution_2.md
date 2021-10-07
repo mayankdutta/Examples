@@ -19,3 +19,6 @@ Now the modified sums array will look like [0,1,3,4,7]. Now, try to see for the 
 2. 1->4
 3. 4->7 <br>
 Hence, 3 sub arrays of sums=k
+
+
+similar problem: [binary subarrays with sum](https://leetcode.com/problems/binary-subarrays-with-sum/submissions/)
