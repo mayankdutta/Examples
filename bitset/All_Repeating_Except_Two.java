@@ -1,6 +1,8 @@
 // given an array of no.s all no.s are repeating two times, but not two of them. find those two. 
 // https://www.pepcoding.com/resources/data-structures-and-algorithms-in-java-levelup/bit-manipulation/all-repeating-except-two-official/ojquestion
 // observe the property of xor, and then we partitioned best on RSB.
+// base on same concept: Find Duplicate Number and Missing Number from 1 to N | One Duplicate One Missing | Bit Manipulation
+
 
 import java.io.*;
 import java.util.*;
