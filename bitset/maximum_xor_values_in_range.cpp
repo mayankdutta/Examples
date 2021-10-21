@@ -7,3 +7,15 @@ and it is always possible to choose these bits in such a way from two numbers su
 */
 
 // https://www.geeksforgeeks.org/maximum-xor-value-of-a-pair-from-a-range/
+
+
+int maximizingXor(int l, int r) {
+    int xored = l ^ r;
+    int count = 0; 
+    while (xored) {
+        count ++; 
+        xored = xored >> 1;
+    }
+    return ((1 << count) - 1);
+    
+}
