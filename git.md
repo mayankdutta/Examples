@@ -1,0 +1,3 @@
+- git stash clear
+- git stash clear
+- git stash drop stash@{index}   // here index will be shown after getting stash list.
